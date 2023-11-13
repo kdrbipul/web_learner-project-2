@@ -59,3 +59,43 @@ h1{
     text-align: center;
 }
 
+.progress{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 18px 0;
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    position: relative;
+}
+.progress:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 0.7%;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.footer h1,h4{
+    color: #fff;
+}
+
+.l_btn{
+    padding: 10px;
+    margin: 8px;
+    width: 150px;
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
